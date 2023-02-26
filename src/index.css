@@ -10,13 +10,26 @@
     @apply font-[Raleway];
   }
   .navbar {
-    @apply fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#293241]
-       dark:bg-black text-[#E0FBFC];
+    @apply fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#293241] dark:bg-black text-[#E0FBFC];
   }
   .navbar-link{
-    @apply px-4 cursor-pointer;
+    @apply px-4 cursor-pointer ;
   }
   .mobile-menu{
     @apply py-2 my-4 text-4xl cursor-pointer hover:first-letter:font-semibold transition-all;
+  }
+  /* these 2 are the default behaviour, else is hidden */
+  .sticky-left{
+    @apply flex fixed flex-col top-[35%] left-0
+  }
+  .horizontal-slide{
+    @apply w-[160px] h-[50px] flex p-4  ml-[-100px] hover:ml-[-10px] duration-300 rounded;
+  }
+  /* next 2 should define behaviour for sm screen with top sliding and rotate */
+  .sticky-top{
+    @apply flex fixed top-0 left-[30%] rotate-90
+  }
+  .vertical-slide{
+    @apply p-10
   }
 }
