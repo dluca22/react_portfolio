@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import StickyLinks from './components/StickyLinks'
+import Work from './components/Work'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <Home/>
     <About />
     <Skills />
+    <Work />
    </div>
   )
 }
