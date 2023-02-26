@@ -6,11 +6,11 @@
 
 
 @layer base {
-  body{
-    @apply font-[Raleway];
+  html, body, #root{
+    @apply font-[Raleway] h-screen w-full;
   }
   .navbar {
-    @apply fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#293241] dark:bg-black text-[#E0FBFC];
+    @apply  fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#293241] dark:bg-black text-[#E0FBFC];
   }
   .navbar-link{
     @apply px-4 cursor-pointer ;
@@ -33,7 +33,7 @@
     @apply p-10
   }
   .skill-tile{
-	@apply mx-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[200px] h-[250px] scale-75 md:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
+	@apply m-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[200px] h-[250px] scale-75 md:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
   }
 }
 

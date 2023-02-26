@@ -5,10 +5,11 @@ function Home() {
   // name="home" is for react smoothscroll
   return (
     //  TODO fix border and shadow
-    <div name='home' className='bg-[#293241] w-full h-[70vh] border-b-8 border-[#98C1D9] shadow-xl shadow-[#98C1D9] '>
+    //  border-b-8 border-[#98C1D9] shadow-xl shadow-[#98C1D9]
+    <div name='home' className='bg-[#293241] w-full h-[70vh]  border-b-8 border-[#98c1d94b]  shadow-[0_5px_60px_30px_#98c1d94b] '>
       {/* container */}
       {/* ci può anche stare un breakpoint xs in cui fa in full e la foto viene spostata sopra */}
-      <div className='max-w-[60%] lg:max-w-[40%] ml-20 px-8 flex flex-col justify-center h-full'>
+      <div className='max-w-[60%] lg:max-w-[100%] ml-20 px-8 flex flex-col justify-center h-full'>
         <h1 className='text-4xl font-bold tracking-wide text-[#98C1D9] '>
           {' '}
           Luca De Angelis

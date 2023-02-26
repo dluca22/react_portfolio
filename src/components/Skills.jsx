@@ -12,7 +12,7 @@ function Skills() {
 
                 <p>There are the skills I have worked with so far</p>
             </div>
-            <div className='w-[80%] grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 text-center py-8 mx-auto'>
+            <div className='max-w-[80%] lg:max-w-[65%] h-fit flex justify-evenly items-center flex-wrap'>
                 <SkillTile name="javascript" logo={<JsLogo/>} />
                 <SkillTile name="python" logo={<PythonLogo/>} />
                 <SkillTile name="django" logo={<DjangoLogo/>} />
