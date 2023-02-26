@@ -33,7 +33,7 @@
     @apply p-10
   }
   .skill-tile{
-	@apply mx-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[200px] h-[250px] scale-75 md:scale-100 transition-all shadow-lg hover:shadow-gray-700
+	@apply mx-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[200px] h-[250px] scale-75 md:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
   }
 }
 
