@@ -4,7 +4,8 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 function Home() {
   // name="home" is for react smoothscroll
   return (
-    <div name='home' className='bg-[#293241] w-full h-screen'>
+    //  TODO fix border and shadow
+    <div name='home' className='bg-[#293241] w-full h-[70vh] border-b-8 border-[#98C1D9] shadow-xl shadow-[#98C1D9] '>
       {/* container */}
       {/* ci può anche stare un breakpoint xs in cui fa in full e la foto viene spostata sopra */}
       <div className='max-w-[60%] lg:max-w-[40%] ml-20 px-8 flex flex-col justify-center h-full'>

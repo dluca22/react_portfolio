@@ -33,3 +33,55 @@
     @apply p-10
   }
 }
+
+
+@layer utilities {
+	/* hides scrollbars keeping scroll function */
+		/* Chrome, Safari and Opera */
+		.no-scrollbar::-webkit-scrollbar {
+			display: none;
+		}
+
+		.no-scrollbar {
+			-ms-overflow-style: none; /* IE and Edge */
+			scrollbar-width: none; /* Firefox */
+		}
+
+		/* scrollbar styling for Chrome Safari and Opera */
+		/* width */
+		.scrollable::-webkit-scrollbar,
+		html::-webkit-scrollbar {
+			width: 6px;
+			height: 6px;
+		}
+
+		/* Track */
+		.scrollable::-webkit-scrollbar-track,
+		html::-webkit-scrollbar-track {
+			background: rgba(0, 0, 0, 0.12);
+			border-radius: 10px;
+		}
+
+		/* Handle */
+		.scrollable::-webkit-scrollbar-thumb,
+		html::-webkit-scrollbar-thumb {
+			background: rgba(0, 0, 0, 0.252);
+			border-radius: 10px;
+		}
+
+		/* Handle on hover */
+		.scrollable::-webkit-scrollbar-thumb:hover,
+		html::-webkit-scrollbar-thumb:hover {
+			background: rgba(0, 0, 0, 0.4);
+			opacity: 0.3;
+		}
+
+		/* Firefox only has limited customization for just width and color*/
+		.scrollable,
+		html {
+			scrollbar-width: 13px;
+			/* firefox scrollbar-color : <color thumb> <color track> */
+			scrollbar-color: rgba(13, 148, 136, 0.3) rgba(104, 168, 163, 0.2);
+		}
+
+}
