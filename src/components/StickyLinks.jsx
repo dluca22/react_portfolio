@@ -1,6 +1,6 @@
 import React from 'react'
 
-const StickyLinks = () => {
+function StickyLinks() {
   return (
     <div className='flex fixed flex-col'>
 

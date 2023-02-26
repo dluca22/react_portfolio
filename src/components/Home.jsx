@@ -1,12 +1,12 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 
-const Home = () => {
-  return (
-    <div>
+function Home() {
+    return (
+        <div>
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Home
