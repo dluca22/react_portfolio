@@ -1,0 +1,15 @@
+import React from 'react';
+
+export default function LineVector() {
+  return (
+    <svg
+      width='200'
+      height='2'
+      viewBox='0 0 200 2'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path d='M0 0.739136H139.031H200' stroke='#98C1D9' />
+    </svg>
+  );
+}
