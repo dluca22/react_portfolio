@@ -17,16 +17,16 @@ function Skills() {
   return (
     <div
       name='skills'
-      className='w-full flex flex-col items-center justify-center'
+      className='w-full flex flex-col items-center '
     >
-      <div className='text-[#E0FBFC] leading-10'>
+      <div className='text-[#E0FBFC] leading-10 p-4 md:p-0 md:ml-[-200px]'>
         <h3 className='section-header'>
           Skills
         </h3>
 
         <p>There are the technologies I have worked with so far</p>
       </div>
-      <div className='max-w-[80%] lg:max-w-[65%] h-fit p-8 md:p-0 mx-30 flex sm:justify-evenly items-center overflow-x-auto  sm:overflow-hidden sm:flex-wrap'>
+      <div className='max-w-[80%] lg:max-w-[65%] h-fit p-2 md:p-0bg-red-400 flex sm:justify-evenly items-center overflow-x-auto  sm:overflow-hidden sm:flex-wrap scrollable'>
         <SkillTile name='javascript' logo={<JsLogo />} />
         <SkillTile name='python' logo={<PythonLogo />} />
         <SkillTile name='django' logo={<DjangoLogo />} />
