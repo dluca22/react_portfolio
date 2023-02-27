@@ -9,17 +9,18 @@ function StickyLinks() {
     <div className='hidden lg:sticky-left xxl:sticky-top'>
         <ul>
             <li className='vertical-slide lg:horizontal-slide bg-[#0A66C2]'>
-                <a href="/" className='flex items-center justify-between w-full text-gray-300 font-bold'>
+                <a href="https://www.linkedin.com/in/luca-de-angelis-49a85b255/" target="_blank" className='flex items-center justify-between w-full text-gray-300 font-bold'>
                     LinkedIn <FaLinkedin size={30} />
                 </a>
             </li>
             <li className='xxl:vertical-slide lg:horizontal-slide bg-[#24292F]'>
-                <a href="/" className='flex items-center justify-between w-full text-gray-300 font-bold'>
+                <a href="https://github.com/dluca22"  target="_blank" className='flex items-center justify-between w-full text-gray-300 font-bold'>
                     Github <FaGithub size={30} />
                 </a>
             </li>
             <li className='xxl:vertical-slide lg:horizontal-slide bg-emerald-500'>
-                <a href="/" className='flex items-center justify-between w-full text-gray-300 font-bold'>
+                <a href="mailto:dea.luca@yahoo.com?subject=Info%20request&body=Hi%20I%20am%20reaching%20out%20for%20info%20from%20your%20website
+                " className='flex items-center justify-between w-full text-gray-300 font-bold'>
                     Email <HiOutlineMail size={30} />
                 </a>
             </li>

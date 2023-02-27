@@ -38,6 +38,19 @@
   .section-header{
 	 @apply text-4xl font-bold inline border-b-4 border-[#EE6C4D]
   }
+  .resume-container{
+	@apply  w-full px-8 sm:px-4 flex flex-col sm:w-1/2 md:w-2/3 ;
+  }
+  .resume-row{
+	@apply flex flex-col sm:flex-row gap-1 sm:gap-8 mb-8;
+  }
+  .resume-row-title{
+	@apply w-1/3 flex shrink justify-end text-2xl font-bold;
+
+  }
+  .resume-row-description{
+	@apply flex flex-col sm:w-2/3 shrink-0 grow ;
+  }
 }
 
 
