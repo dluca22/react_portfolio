@@ -33,7 +33,7 @@
     @apply p-10
   }
   .skill-tile{
-	@apply m-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[200px] h-[250px] scale-75 md:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
+	@apply m-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[200px] h-[250px] scale-90 sm:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
   }
   .section-header{
 	 @apply text-4xl font-bold inline border-b-4 border-[#EE6C4D]
@@ -49,7 +49,7 @@
 
   }
   .resume-row-description{
-	@apply flex flex-col sm:w-2/3 shrink-0 grow ;
+	@apply mx-10 flex flex-col sm:w-2/3 shrink-0 grow ;
   }
 }
 

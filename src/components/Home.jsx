@@ -6,10 +6,10 @@ function Home() {
   return (
     //  TODO fix border and shadow
     //  border-b-8 border-[#98C1D9] shadow-xl shadow-[#98C1D9]
-    <div name='home' className='bg-[#293241] w-full h-[70vh]  border-b-8 border-[#98c1d94b]  shadow-[0_5px_60px_30px_#98c1d94b] '>
+    <div name='home' className='bg-[#293241] w-full h-screen md:h-[70vh] md:border-b-8 md:border-[#98c1d94b] md:shadow-[0_5px_60px_30px_#98c1d94b] '>
       {/* container */}
       {/* ci può anche stare un breakpoint xs in cui fa in full e la foto viene spostata sopra */}
-      <div className='max-w-[60%] lg:max-w-[100%] ml-20 px-8 flex flex-col justify-center h-full'>
+      <div className=' w-full lg:max-w-[100%] px-10 md:px-8 flex flex-col justify-end pb-10  h-full '>
         <h1 className='text-4xl font-bold tracking-wide text-[#98C1D9] '>
           {' '}
           Luca De Angelis
