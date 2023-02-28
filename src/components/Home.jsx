@@ -9,7 +9,7 @@ function Home() {
     <div name='home' className='bg-[#293241] w-full h-screen md:h-[70vh] md:border-b-8 md:border-[#98c1d94b] md:shadow-[0_5px_60px_30px_#98c1d94b] '>
       {/* container */}
       {/* ci può anche stare un breakpoint xs in cui fa in full e la foto viene spostata sopra */}
-      <div className=' w-full lg:max-w-[100%] px-10 md:px-8 flex flex-col justify-end pb-10  h-full '>
+      <div className=' w-full sm:w-2/3 lg:1/2  px-10 md:px-8 flex flex-col justify-end pb-10  h-full '>
         <h1 className='text-4xl font-bold tracking-wide text-[#98C1D9] '>
           {' '}
           Luca De Angelis
