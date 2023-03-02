@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsCodeSlash } from 'react-icons/bs';
 
-export default function ProjectSnippet({name}) {
+export default function ProjectSnippet({name, repo, livePage}) {
 
   return (
     <div
@@ -14,7 +14,7 @@ export default function ProjectSnippet({name}) {
         </h3>
         <div className='flex gap-5'>
           <a
-            href='https://github.com/dluca22/tenziex'
+            href={repo}
             target='_blank'
             rel='noreferrer'
           >
@@ -23,7 +23,7 @@ export default function ProjectSnippet({name}) {
             </button>
           </a>
           <a
-            href='https://dluca22.github.io/tenziex/'
+            href={livePage}
             target='_blank'
             rel='noreferrer'
           >

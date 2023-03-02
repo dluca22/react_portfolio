@@ -52,8 +52,8 @@
 	@apply mx-10 flex flex-col sm:w-2/3 shrink-0 grow ;
   }
   .project-snippet{
-	@apply border-2 max-w-[300px] h-[220px] bg-no-repeat bg-center bg-[length:400px]
-	hover:scale-105 duration-300 rounded-md;
+	@apply border-2 w-[300px] h-[220px] bg-no-repeat bg-center bg-[length:400px]
+	hover:scale-105 duration-300 rounded-md m-3;
   }
   .project-snippet  button{
 	@apply bg-slate-300 text-black rounded-lg p-2
