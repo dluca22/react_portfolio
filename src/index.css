@@ -33,7 +33,7 @@
     @apply p-10
   }
   .skill-tile{
-	@apply m-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[200px] h-[250px] scale-90 sm:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
+	@apply m-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[160px] h-[200px] scale-90 sm:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
   }
   .section-header{
 	 @apply text-4xl font-bold inline border-b-4 border-[#EE6C4D]
@@ -61,6 +61,7 @@
 }
 
 
+
 @layer utilities {
 	/* hides scrollbars keeping scroll function */
 		/* Chrome, Safari and Opera */
@@ -81,24 +82,23 @@
 			height: 6px;
 		}
 
-		/* Track */
+		/* Track for chrome and edge  */
 		.scrollable::-webkit-scrollbar-track,
 		html::-webkit-scrollbar-track {
-			background: rgba(0, 0, 0, 0.12);
-			border-radius: 10px;
+			background: rgba(0, 0, 0, 0.8);
 		}
 
 		/* Handle */
 		.scrollable::-webkit-scrollbar-thumb,
 		html::-webkit-scrollbar-thumb {
-			background: rgba(0, 0, 0, 0.252);
+			background: rgba(238, 108, 77, 0.3);
 			border-radius: 10px;
 		}
 
 		/* Handle on hover */
 		.scrollable::-webkit-scrollbar-thumb:hover,
 		html::-webkit-scrollbar-thumb:hover {
-			background: rgba(0, 0, 0, 0.4);
+			background:rgba(238, 108, 77, 0.7);
 			opacity: 0.3;
 		}
 
@@ -107,7 +107,7 @@
 		html {
 			scrollbar-width: 13px;
 			/* firefox scrollbar-color : <color thumb> <color track> */
-			scrollbar-color: rgba(13, 148, 136, 0.3) rgba(104, 168, 163, 0.2);
+			scrollbar-color: rgba(238, 108, 77, 0.3) rgba(109, 51, 36, 0.2);
 		}
 
 }

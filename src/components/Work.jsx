@@ -9,7 +9,7 @@ export default function Work() {
           <h3 className='section-header '>Work</h3>
           <p>Check out some of my recent work:</p>
         </div>
-        <div className='w-full flex flex-wrap'>
+        <div className='w-full flex flex-wrap justify-center md:justify-start'>
           <ProjectSnippet
             name='tenzies'
             repo='https://github.com/dluca22/tenziex'
