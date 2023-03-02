@@ -22,13 +22,16 @@ export default function ProjectSnippet({name, repo, livePage}) {
               <span>View code</span> <BsCodeSlash value={{ className: '' }} />
             </button>
           </a>
+          {
+            livePage &&
           <a
             href={livePage}
-            target='_blank'
+            target="_blank"
             rel='noreferrer'
           >
             <button type='button'>Live preview</button>
           </a>
+          }
         </div>
       </div>
     </div>
