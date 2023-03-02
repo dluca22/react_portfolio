@@ -61,6 +61,7 @@
 }
 
 
+
 @layer utilities {
 	/* hides scrollbars keeping scroll function */
 		/* Chrome, Safari and Opera */
@@ -81,24 +82,23 @@
 			height: 6px;
 		}
 
-		/* Track */
+		/* Track for chrome and edge  */
 		.scrollable::-webkit-scrollbar-track,
 		html::-webkit-scrollbar-track {
-			background: rgba(0, 0, 0, 0.12);
-			border-radius: 10px;
+			background: rgba(0, 0, 0, 0.8);
 		}
 
 		/* Handle */
 		.scrollable::-webkit-scrollbar-thumb,
 		html::-webkit-scrollbar-thumb {
-			background: rgba(0, 0, 0, 0.252);
+			background: rgba(238, 108, 77, 0.3);
 			border-radius: 10px;
 		}
 
 		/* Handle on hover */
 		.scrollable::-webkit-scrollbar-thumb:hover,
 		html::-webkit-scrollbar-thumb:hover {
-			background: rgba(0, 0, 0, 0.4);
+			background:rgba(238, 108, 77, 0.7);
 			opacity: 0.3;
 		}
 
@@ -107,7 +107,7 @@
 		html {
 			scrollbar-width: 13px;
 			/* firefox scrollbar-color : <color thumb> <color track> */
-			scrollbar-color: rgba(13, 148, 136, 0.3) rgba(104, 168, 163, 0.2);
+			scrollbar-color: rgba(238, 108, 77, 0.3) rgba(109, 51, 36, 0.2);
 		}
 
 }
