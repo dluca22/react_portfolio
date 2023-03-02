@@ -21,12 +21,15 @@ export default function Work() {
           livePage="https://dluca22.github.io/simple_quiz_react/"
           />
           <ProjectSnippet
-          name='PyJob'
-          repo="https://github.com/dluca22/PyJob"
+          name='react_notes'
           />
           <ProjectSnippet
           name='keymdall'
           repo="https://github.com/dluca22/vaultrepo"
+          />
+          <ProjectSnippet
+          name='PyJob'
+          repo="https://github.com/dluca22/PyJob"
           />
 
         </div>

@@ -12,12 +12,16 @@ export default function ProjectSnippet({name, repo, livePage}) {
       className='project-snippet group'
       style={{ backgroundImage: `url(https://github.com/dluca22/react_portfolio/blob/main/src/assets/pictures/${name}.png?raw=true` }}
     >
-      <div className=' hidden h-full group-hover:flex flex-col bg-[#8d402d] bg-opacity-90 justify-around items-center'>
+      <div className='hidden h-full group-hover:flex flex-col bg-[#8d402d] bg-opacity-90 justify-around items-center'>
         <h3 className='text-2xl text-white capitalize font-bold underline'>
           {name}
         </h3>
         <div className='flex gap-5'>
-          <a
+         { !repo && ! livePage &&
+          <h3 className='thin italic text-3xl' >tbd...</h3>
+
+         }
+         {repo && <a
             href={repo}
             target='_blank'
             rel='noreferrer'
@@ -25,7 +29,7 @@ export default function ProjectSnippet({name, repo, livePage}) {
             <button type='button' className='flex items-center gap-2'>
               <span>View code</span> <BsCodeSlash />
             </button>
-          </a>
+          </a>}
           {
             livePage &&
           <a
