@@ -24,6 +24,10 @@ export default function Work() {
           name='PyJob'
           repo="https://github.com/dluca22/PyJob"
           />
+          <ProjectSnippet
+          name='keymdall'
+          repo="https://github.com/dluca22/vaultrepo"
+          />
 
         </div>
         {/* <div>
