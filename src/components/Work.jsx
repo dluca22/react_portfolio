@@ -9,7 +9,7 @@ export default function Work() {
           <h3 className='section-header '>Work</h3>
           <p>Check out some of my recent work:</p>
         </div>
-        <div className='w-full flex flex-wrap justify-center md:justify-start'>
+        <div className='w-full flex flex-wrap justify-center lg:justify-start'>
           <ProjectSnippet
             name='tenzies'
             repo='https://github.com/dluca22/tenziex'
@@ -21,12 +21,15 @@ export default function Work() {
           livePage="https://dluca22.github.io/simple_quiz_react/"
           />
           <ProjectSnippet
-          name='PyJob'
-          repo="https://github.com/dluca22/PyJob"
+          name='react_notes'
           />
           <ProjectSnippet
           name='keymdall'
           repo="https://github.com/dluca22/vaultrepo"
+          />
+          <ProjectSnippet
+          name='PyJob'
+          repo="https://github.com/dluca22/PyJob"
           />
 
         </div>

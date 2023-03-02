@@ -6,7 +6,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 function StickyLinks() {
   return (
     // TODO remove xxl: define class and style for vertical sliding tiles after completing, remove hidden
-    <div className='hidden lg:sticky-left xxl:sticky-top'>
+    <div className='hidden z-20 lg:sticky-left xxl:sticky-top '>
       <ul>
         <li className='vertical-slide lg:horizontal-slide bg-[#0A66C2]'>
           <a
