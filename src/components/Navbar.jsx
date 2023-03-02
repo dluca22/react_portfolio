@@ -8,7 +8,7 @@ function Navbar() {
 
     return (
         <nav className='navbar'>
-            <div>logo</div>
+            <div><img src="../../public/icon.svg" alt="logo" height="50px" width="50px" /></div>
 
             {/* menu full */}
             <ul className='hidden md:flex'>
