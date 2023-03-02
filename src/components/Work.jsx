@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectSnippet from './ProjectSnippet';
 
 export default function Work() {
   return (
@@ -14,7 +15,8 @@ export default function Work() {
           <p>Check out some of my recent work:</p>
         </div>
 
-        <div>
+      <ProjectSnippet name="tenzies" />
+        {/* <div>
           <div>
             <div>
               <span></span>
@@ -28,7 +30,7 @@ export default function Work() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
