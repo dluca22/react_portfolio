@@ -20,6 +20,11 @@ export default function Work() {
           repo="https://github.com/dluca22/simple_quiz_react"
           livePage="https://dluca22.github.io/simple_quiz_react/"
           />
+          <ProjectSnippet
+          name='PyJob'
+          repo="https://github.com/dluca22/PyJob"
+          livePage="https://dluca22.github.io/simple_quiz_react/"
+          />
 
         </div>
         {/* <div>
