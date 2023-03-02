@@ -1,6 +1,10 @@
 import React from 'react';
 import { BsCodeSlash } from 'react-icons/bs';
 
+//  component for Project snippet boxes (name & repo[requried], livePage[optional])
+// background & name inherited from "name" prop (make sure matches with .png name for template literal)
+// button links ineherit from prop.repo & prop.livePage
+// if NOT livePage link was provided, button isn't rendered
 export default function ProjectSnippet({name, repo, livePage}) {
 
   return (
