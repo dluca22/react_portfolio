@@ -4,7 +4,7 @@ import PopupInfo from './PopupInfo';
 
 function Home() {
 
-  const [dismissed, setDismissed] = useState(false)
+  const [dismissed, setDismissed] = useState(localStorage.getItem("popup_dismissed") ? JSON.parse(localStorage.getItem("popup_dismissed")) : false)
 
   useEffect(() => {
     localStorage.setItem("popup_dismissed", JSON.stringify(dismissed))
