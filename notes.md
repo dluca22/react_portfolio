@@ -7,3 +7,8 @@ To add Other project tiles steps are:
         - **warn** name propr MUST match the one used in the picture name
 
 * push update to remote `gh-page` branch
+
+* merge `main` into `gh-pages-repo`
+* run `npm run deploy` from `gh-pages-repo`
+
+rempote branch `gh-pages` will be updated and published
