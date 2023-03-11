@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import PopupInfo from './PopupInfo';
+import PersonalPicture from './PersonalPicture';
 
 function Home() {
 
@@ -15,23 +16,27 @@ function Home() {
   // name="home" is for react smoothscroll
   return (
     //  TODO fix border and shadow
-    //  border-b-8 border-[#98C1D9] shadow-xl shadow-[#98C1D9]
-    <div name='home' className='bg-[#293241] w-full h-screen md:h-[70vh] md:border-b-8 md:border-[#98c1d94b] md:shadow-[0_5px_60px_30px_#98c1d94b]
-    flex justify-center '>
+    //  border-b-8 border-colPrimary shadow-xl shadow-colPrimary
+    <div name='home' className='bg-colBasic w-full h-screen md:border-b-8 pt-[80px] md:border-colSecondary md:shadow-[0_5px_60px_30px_#98c1d94b]
+     justify-center relative flex flex-col items-center md:flex-row-reverse'>
+      <div className='min-h-[80px]'>
+        {/* empty space for navbar */}
+      </div>
 
+        <PersonalPicture />
     {!dismissed && <PopupInfo setDismissed={setDismissed}/>}
 
       {/* container */}
       {/* ci può anche stare un breakpoint xs in cui fa in full e la foto viene spostata sopra */}
       <div className=' w-full sm:w-2/3 lg:w-1/2  px-10 md:px-8 flex flex-col justify-end pb-10  h-full '>
-        <h1 className='text-4xl font-bold tracking-wide text-[#98C1D9] '>
+        <h1 className='text-4xl font-bold tracking-wide text-colPrimary '>
           {' '}
           Luca De Angelis
         </h1>
-        <h2 className='text-xl font-semibold text-[#E0FBFC]'>
+        <h2 className='text-xl font-semibold text-textCol'>
           • Junior web developer •
         </h2>
-        <p className='text-[#E0FBFC] text-sm'>
+        <p className='text-textCol text-sm'>
           I'm Luca a self-taught frontend developer with a passion for creating
           intuitive and engaging user experiences. I have experience with Python
           and Django for the back-end and vanilla Js or React for the front-end.
@@ -46,7 +51,7 @@ function Home() {
         <div>
           <button
             type='button'
-            className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#EE6C4D] hover:border-[#EE6C4D] duration-300'
+            className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-colAccent hover:border-colAccent duration-300'
           >
             View Work
             <span className='duration-300 group-hover:rotate-90'>
