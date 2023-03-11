@@ -15,8 +15,8 @@ export default function PopupInfo({ setDismissed }) {
       onClick={event => closeModal(event)}
     >
       <div
-        className=' w-full mx-3 md:w-1/2 max-w-[350px] h-[200px] top-[100px]
-        flex flex-col mt-20 items-center gap-4 p-2 text-sm md:text-base
+        className=' w-full mx-3 md:w-1/2 max-w-[350px] max-h-[300px] top-[100px]
+        flex flex-col mt-20 items-center justify-center gap-4 p-2 text-sm md:text-base
         rounded border-4 border-yellow-500 bg-yellow-200 bg-opacity-95
          text-[#EE6C4D] relative overflow-auto scrollable
          shadow-2xl'
@@ -30,7 +30,7 @@ export default function PopupInfo({ setDismissed }) {
         </button>
         <h2 className='font-bold text-2xl flex gap-3'> <ImWarning/> Attention <ImWarning /></h2>
         <p className='font-semibold underline'>My Portfolio is currently under development</p>
-        <p className='font-semibold'>
+        <p className='font-semibold text-justify'>
           I am actively attending a course and my time and resources are focused on expanding my knowledge
         </p>
       </div>
