@@ -10,7 +10,7 @@
     @apply font-[Raleway] h-screen w-full;
   }
   .navbar {
-    @apply  fixed w-full h-[80px] flex z-10 justify-between items-center px-4 bg-[#293241] dark:bg-black text-[#E0FBFC];
+    @apply  fixed w-full h-[80px] flex z-10 justify-between items-center px-4 bg-colBasic dark:bg-black text-textCol;
   }
   .navbar-link{
     @apply px-4 cursor-pointer hover:text-yellow-200 duration-700;
@@ -33,10 +33,10 @@
     @apply p-10
   }
   .skill-tile{
-	@apply m-2 bg-gray-500 bg-opacity-5 rounded-sm text-[#e0fbfc] text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[160px] h-[200px] scale-90 sm:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
+	@apply m-2 bg-gray-500 bg-opacity-5 rounded-sm text-textCol text-xl leading-10 flex flex-col justify-evenly items-center p-2 w-[160px] h-[200px] scale-90 sm:scale-100 transition-all shadow-lg hover:shadow-gray-700 hover:scale-110 duration-500
   }
   .section-header{
-	 @apply text-4xl font-bold inline border-b-4 border-[#EE6C4D]
+	 @apply text-4xl font-bold inline border-b-4 border-colAccent
   }
   .resume-container{
 	@apply  w-full px-8 sm:px-4 flex flex-col sm:w-1/2 md:w-2/3 ;
@@ -52,7 +52,7 @@
 	@apply mx-10 flex flex-col sm:w-2/3 shrink-0 grow ;
   }
   .project-snippet{
-	@apply border border-[#EE6C4D] w-[300px] h-[220px] bg-no-repeat bg-center bg-[length:400px]
+	@apply border border-colAccent w-[300px] h-[220px] bg-no-repeat bg-center bg-[length:400px]
 	hover:scale-105 duration-500 rounded-md m-3;
   }
   .project-snippet  button{

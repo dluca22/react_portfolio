@@ -19,7 +19,7 @@ function Skills() {
       name='skills'
       className='w-full flex flex-col items-center '
     >
-      <div className='text-[#E0FBFC] leading-10 p-4 md:p-0 md:ml-[-200px]'>
+      <div className='text-textCol leading-10 p-4 md:p-0 md:ml-[-200px]'>
         <h3 className='section-header'>
           Skills
         </h3>

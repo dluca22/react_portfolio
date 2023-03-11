@@ -10,7 +10,7 @@ export default function ProjectSnippet({name, repo, livePage}) {
   return (
     <div
       className='project-snippet group'
-      style={{ backgroundImage: `url(https://github.com/dluca22/react_portfolio/blob/main/src/assets/pictures/${name}.png?raw=true` }}
+      style={{ backgroundImage: `url(https://github.com/dluca22/react_portfolio/blob/main/src/assets/pictures/${name}.png?raw=true)` }}
     >
       <div className='hidden h-full group-hover:flex flex-col bg-[#8d402d] bg-opacity-90 justify-around items-center'>
         <h3 className='text-2xl text-white capitalize font-bold underline'>

@@ -18,7 +18,7 @@ export default function PopupInfo({ setDismissed }) {
         className=' w-full mx-3 md:w-1/2 max-w-[350px] max-h-[300px] top-[100px]
         flex flex-col mt-20 items-center justify-center gap-4 p-2 text-sm md:text-base
         rounded border-4 border-yellow-500 bg-yellow-200 bg-opacity-95
-         text-[#EE6C4D] relative overflow-auto scrollable
+         text-colAccent relative overflow-auto scrollable
          shadow-2xl'
       >
         <button

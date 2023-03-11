@@ -9,7 +9,7 @@ import Work from './components/Work'
 function App() {
 
   return (
-   <div className='app bg-[#293241]'>
+   <div className='app bg-colBasic'>
     <Navbar />
     <StickyLinks/>
     <Home/>

@@ -36,7 +36,7 @@ function Navbar() {
 
             {/*  mobile menu */}
 
-            <ul className={!navMenu ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#293241] flex flex-col justify-center items-center'}>
+            <ul className={!navMenu ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-colBasic flex flex-col justify-center items-center'}>
                 <li className='mobile-menu hover:first-letter:text-red-500'>Home</li>
                 <li className='mobile-menu hover:first-letter:text-blue-500'>About</li>
                 <li className='mobile-menu hover:first-letter:text-yellow-500'>Skills</li>
