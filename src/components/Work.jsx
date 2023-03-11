@@ -31,6 +31,11 @@ export default function Work() {
           name='PyJob'
           repo="https://github.com/dluca22/PyJob"
           />
+           <ProjectSnippet
+          name='ts_expenses'
+          repo="https://github.com/dluca22/Ts_expenses"
+          livePage="https://dluca22.github.io/Ts_expenses/"
+          />
 
         </div>
         {/* <div>
