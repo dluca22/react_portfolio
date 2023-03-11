@@ -1,13 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import PopupInfo from './PopupInfo';
 
 function Home() {
+
+  const [dismissed, setDismissed] = useState(localStorage.getItem("popup_dismissed") ? JSON.parse(localStorage.getItem("popup_dismissed")) : false)
+
+  useEffect(() => {
+    localStorage.setItem("popup_dismissed", JSON.stringify(dismissed))
+
+  }, [dismissed])
+
+
   // name="home" is for react smoothscroll
   return (
     //  TODO fix border and shadow
     //  border-b-8 border-[#98C1D9] shadow-xl shadow-[#98C1D9]
     <div name='home' className='bg-[#293241] w-full h-screen md:h-[70vh] md:border-b-8 md:border-[#98c1d94b] md:shadow-[0_5px_60px_30px_#98c1d94b]
     flex justify-center '>
+
+    {!dismissed && <PopupInfo setDismissed={setDismissed}/>}
+
       {/* container */}
       {/* ci può anche stare un breakpoint xs in cui fa in full e la foto viene spostata sopra */}
       <div className=' w-full sm:w-2/3 lg:w-1/2  px-10 md:px-8 flex flex-col justify-end pb-10  h-full '>
