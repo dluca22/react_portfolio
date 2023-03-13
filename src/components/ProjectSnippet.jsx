@@ -5,7 +5,7 @@ import { BsCodeSlash } from 'react-icons/bs';
 // background & name inherited from "name" prop (make sure matches with .png name for template literal)
 // button links ineherit from prop.repo & prop.livePage
 // if NOT livePage link was provided, button isn't rendered
-export default function ProjectSnippet({name, repo, livePage}) {
+export default function ProjectSnippet({name, repo, livePage, video}) {
 
   return (
     <div
@@ -38,6 +38,16 @@ export default function ProjectSnippet({name, repo, livePage}) {
             rel='noreferrer'
           >
             <button type='button'>Live preview</button>
+          </a>
+          }
+          {
+            video &&
+          <a
+            href={video}
+            target="_blank"
+            rel='noreferrer'
+          >
+            <button type='button'>Video</button>
           </a>
           }
         </div>

@@ -26,6 +26,7 @@ export default function Work() {
           <ProjectSnippet
           name='keymdall'
           repo="https://github.com/dluca22/vaultrepo"
+          video="https://www.youtube.com/embed/lebXf0d5ziU"
           />
           <ProjectSnippet
           name='PyJob'
